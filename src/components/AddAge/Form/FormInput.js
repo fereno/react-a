@@ -19,7 +19,6 @@ const FormInput = (props) => {
   const formSubmitHandler = (event) => {
     event.preventDefault();
     console.log(userInput);
-    // window.alert("hey empty");
     if (
       userInput.userName.trim().length === 0 ||
       userInput.age.trim().length === 0
