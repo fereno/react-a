@@ -4,9 +4,9 @@
 
 html {
   font-family: sans-serif;
-  background: rgb(78, 73, 73);
+  /* background: rgb(78, 73, 73);*/
 }
 
 body {
-  margin: 0;
+  margin: 6rem;
 }

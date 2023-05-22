@@ -1,13 +1,9 @@
 import React, {useState} from "react";
 import "./App.css";
-import AppPro from "./components/AddAge/AppPro";
+import AppPro from "./components/Login/AppPro";
 
 const App = () => {
-  return (
-    <div>
-      <AppPro />
-    </div>
-  );
+  return <AppPro />;
 };
 
 export default App;
