@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./App.css";
-import AppPro from "./components/Login/AppPro";
+import AppPro from "./components/TodoList/AppPro";
 
 const App = () => {
   return <AppPro />;
