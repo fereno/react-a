@@ -1,18 +1,16 @@
 import React, {useRef, useEffect, useImperativeHandle} from "react";
 import classes from "./Input.module.css";
 
-const Input =React.forwardRef((props,ref) => {
+const Input = React.forwardRef((props, ref) => {
   const inputRef = useRef();
 
   const activate = () => {
     inputRef.current.focus();
   };
 
-  const useImperativeHandle(ref,()=>{
-    return (
-     { focus: activate}
-    )
-  })
+  useImperativeHandle(ref, () => {
+    return {focus: activate};
+  });
   return (
     <div
       className={`${classes.control} ${
